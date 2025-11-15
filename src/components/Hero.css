@@ -1,0 +1,82 @@
+.hero {
+  height: 100vh;      
+  width: 100%;                   
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;                         
+  justify-content: center;
+  align-items: center;
+
+  position: relative;
+  color: white;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.55);         
+  z-index: 1;
+}
+
+.content {
+  position: relative;
+  z-index: 2;                            
+  text-align: center;
+  max-width: 700px;
+  padding: 0 20px;
+}
+
+.title {
+  font-size: 3rem;
+  letter-spacing: 0.3rem;
+  font-weight: 300;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.btn {
+  background: transparent;
+  border: 1px solid white;
+  padding: 12px 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  color: white;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background: rgba(255,255,255,0.15);
+}
+
+.social {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+.social a {
+  font-size: 1.6rem;
+  color: white;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  opacity: 0.6;
+}
+
+/* mobile */
+@media (max-width: 600px) {
+  .title {
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+}

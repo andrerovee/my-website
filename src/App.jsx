@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+/* import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -17,6 +17,16 @@ function App() {
       </Routes>
     </BrowserRouter>
   );
+}
+
+export default App;
+ */
+
+import Hero from "./components/Hero";
+
+function App() {
+  
+  return <Hero />;
 }
 
 export default App;
