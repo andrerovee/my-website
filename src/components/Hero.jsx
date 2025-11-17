@@ -10,13 +10,13 @@ export default function Hero() {
             <div className="content">
                 <h1 className="title">Andrea</h1>
                 <p className="subtitle"> 
-                    Sono Andrea e mi piace il mio gatto, Dexter. 
+                    Sono Andrea e amo la mia gattina, Nefertari. 
                     Ho deciso di creare questo website un po' per noia, 
                     un po' per poter raccontare le mie esperienze e i miei pensieri. 
                     Se volete leggere una verita' discutibile e non assoluta, siete esattamente dove dovete essere.
                 </p>
 
-                <button className="btn">Vai al blog</button>
+                <button onClick={() => window.location.href = "/blog_home"} className="btn">Vai al blog</button>
 
                 <div className="social"> 
                     <a href="#" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
